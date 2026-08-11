@@ -7,6 +7,7 @@ Add Customer
 Search Customer
 View All Customers
 Delete Customer
+
 🏦 Account Management
 Create Savings Account
 Create Current Account
@@ -14,10 +15,12 @@ Search Account
 View All Accounts
 Check Balance
 Delete Account
+
 💰 Banking Operations
 Deposit Money
 Withdraw Money
 Transfer Money
+
 📜 Transaction Management
 Transaction History
 Automatic Transaction Recording
@@ -28,6 +31,7 @@ Exception Handling
 Logging
 Dashboard
 Menu-Driven Application
+
 🛠 Technologies Used
 Java 21
 JDBC
@@ -35,6 +39,7 @@ MySQL
 MySQL Workbench
 VS Code
 Git & GitHub
+
 📂 Project Structure
 BankManagementSystem
 │
@@ -77,6 +82,7 @@ BankManagementSystem
 │   └── InsufficientBalanceException.java
 │
 └── Main.java
+
 🗄 Database
 Database Name
 
@@ -86,7 +92,9 @@ Tables
 customers
 accounts
 transactions
+
 ⚙ Database Configuration
+
 Update your DBConnection.java
 
 private static final String URL =
@@ -95,6 +103,7 @@ private static final String URL =
 private static final String USER = "root";
 
 private static final String PASSWORD = "YOUR_PASSWORD";
+
 🚀 How to Run
 Clone Repository
 git clone https://github.com/anuragsingh1j/BankManagementSystem.git
@@ -118,14 +127,17 @@ Deposit
 Withdraw
 Transfer
 Transaction History
+
 📚 OOP Concepts Used
 Abstraction
 Inheritance
 Polymorphism
 Encapsulation
+
 🏗 Design Patterns
 DAO Pattern
 Service Layer Pattern
+
 🔒 Exception Handling
 Custom Exceptions
 
@@ -137,10 +149,12 @@ Integer Validation
 Email Validation
 Phone Validation
 Positive Amount Validation
+
+
 📋 Logging
 Application logs are stored in
-
 bank.log
+
 🔮 Future Enhancements
 Login Authentication
 Interest Calculation
@@ -152,7 +166,8 @@ JavaFX GUI
 PDF Statement Generation
 
 👨‍💻 Author
-Anurag Singh
+
+**Anurag Singh**
 
 B.Tech Computer Science Engineering
 
