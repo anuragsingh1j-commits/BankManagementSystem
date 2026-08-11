@@ -1,14 +1,14 @@
-🏦 Bank Management System
+#🏦 Bank Management System
 A console-based Bank Management System developed in Java using JDBC and MySQL. This project demonstrates Object-Oriented Programming (OOP), DAO Pattern, Service Layer Architecture, Exception Handling, Input Validation, Logging, and MySQL database integration.
 
-📌 Features
-👤 Customer Management
+##📌 Features
+###👤 Customer Management
 Add Customer
 Search Customer
 View All Customers
 Delete Customer
 
-🏦 Account Management
+###🏦 Account Management
 Create Savings Account
 Create Current Account
 Search Account
@@ -16,12 +16,12 @@ View All Accounts
 Check Balance
 Delete Account
 
-💰 Banking Operations
+###💰 Banking Operations
 Deposit Money
 Withdraw Money
 Transfer Money
 
-📜 Transaction Management
+###📜 Transaction Management
 Transaction History
 Automatic Transaction Recording
 🛠 Additional Features
@@ -32,7 +32,7 @@ Logging
 Dashboard
 Menu-Driven Application
 
-🛠 Technologies Used
+##🛠 Technologies Used
 Java 21
 JDBC
 MySQL
@@ -40,7 +40,7 @@ MySQL Workbench
 VS Code
 Git & GitHub
 
-📂 Project Structure
+##📂 Project Structure
 BankManagementSystem
 │
 ├── database
@@ -83,7 +83,7 @@ BankManagementSystem
 │
 └── Main.java
 
-🗄 Database
+##🗄 Database
 Database Name
 
 bankdb
@@ -93,7 +93,7 @@ customers
 accounts
 transactions
 
-⚙ Database Configuration
+##⚙ Database Configuration
 
 Update your DBConnection.java
 
@@ -104,7 +104,7 @@ private static final String USER = "root";
 
 private static final String PASSWORD = "YOUR_PASSWORD";
 
-🚀 How to Run
+##🚀 How to Run
 Clone Repository
 git clone https://github.com/anuragsingh1j/BankManagementSystem.git
 Open Project
@@ -128,17 +128,17 @@ Withdraw
 Transfer
 Transaction History
 
-📚 OOP Concepts Used
+##📚 OOP Concepts Used
 Abstraction
 Inheritance
 Polymorphism
 Encapsulation
 
-🏗 Design Patterns
+###🏗 Design Patterns
 DAO Pattern
 Service Layer Pattern
 
-🔒 Exception Handling
+###🔒 Exception Handling
 Custom Exceptions
 
 AccountNotFoundException
@@ -151,11 +151,11 @@ Phone Validation
 Positive Amount Validation
 
 
-📋 Logging
+##📋 Logging
 Application logs are stored in
 bank.log
 
-🔮 Future Enhancements
+##🔮 Future Enhancements
 Login Authentication
 Interest Calculation
 Loan Management
@@ -165,7 +165,7 @@ Spring Boot REST API
 JavaFX GUI
 PDF Statement Generation
 
-👨‍💻 Author
+##👨‍💻 Author
 
 **Anurag Singh**
 
